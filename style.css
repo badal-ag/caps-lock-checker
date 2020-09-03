@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    background: #000;
+    color: #fff;
+    border: .1rem solid #ff4754;
+    border-radius: .2rem;
+    outline: none;
+    padding: 1.2rem .8rem;
+}
+
+#caps-message {
+    position: relative;
+    color: #ff4754;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#caps-message svg {
+    margin-right: .4rem;
+}
